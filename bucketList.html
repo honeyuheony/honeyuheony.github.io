@@ -13,25 +13,34 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
     <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/dynamic.css">
+    <!--Jquery-->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="base.js"></script>
     <title>honeyuheony.github.io</title>
 </head>
 <!-- 메인페이지입니다. -->
 
 <body>
     <div class='container' ,>
-        <div class="page-header">
-            <h1>Wooheon Portfolio <small><a href="https://github.com/honeyuheony">honeyuheony.github.io</a></small></h1>
-        </div>
-        <!-- TAP -->
-        <ul class="nav nav-tabs">
-            <li role="presentation"><a href="index.html">Home</a></li>
-            <li role="presentation" class="active"><a href="bucketList.html">Bucket List</a></li>
-            <li role="presentation"><a href="pet.html">Pet</a></li>
-            <li role="presentation"><a href="note.html">Experience Note</a></li>
-        </ul>
+        <header>
+            <h1><span class='dynamic anim-text-flow'>　honeyuheony.github.io　</span></h1>
+            <div class="mnb">
+                <button><img src="img/mnb.png" alt="더보기 메뉴"></button>
+                 <ul class="mnb_inner">
+                     <li class="exit"><img src="img/mnb.png" alt="더보기 메뉴"></li>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="bucketList.html">Bucket List</a></li>
+                     <li><a href="pet.html">Pet</a></li>
+                     <li><a href="note.html">Experience Note</a></li>
+                 </ul>
+             </div>
+        </header>
         <h2>My bucketlist</h2><br>
 
-        <div style="width:600px;">
+        <div>
             <div class="panel panel-default">
                 <p style="font-size: 17px;">
                     <input type="checkbox" name="1" value="1_clear"> 누군가를 대접할 수 있는 심적, 경제적 여유갖기<br><br>
@@ -47,6 +56,13 @@
             </div>
         </div>
     </div>
+    <footer>
+        <ul>
+            <li><a href="https://github.com/honeyuheony/" target="_blank"><img src="img/git.png" alt="깃허브"></a></li>
+            <li><a href="https://www.instagram.com/honeyuheony/" target="_blank"><img src="img/instagram.png" alt="인스타그램"></a></li>
+        </ul>
+        <p>2021 likelion project</p>
+    </footer>
 </body>
 
 </html>

@@ -10,61 +10,149 @@
     <!-- 합쳐지고 최소화된 최신 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- 부가적인 테마 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"> -->
     <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <title>honeyuheony.github.io</title>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/dynamic.css">
+    <!--Jquery-->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="base.js"></script>
+
+    <title>honeyuheony.github.io</title>`
 </head>
 
 <body>
     <div class='container'>
-        <div class="page-header">
-            <h1>Wooheon Portfolio <small><a href="https://github.com/honeyuheony">honeyuheony.github.io</a></small></h1>
-        </div>
-        <!-- TAP -->
-        <ul class="nav nav-tabs">
-            <li role="presentation" class="active"><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="bucketList.html">Bucket List</a></li>
-            <li role="presentation"><a href="pet.html">Pet</a></li>
-            <li role="presentation"><a href="note.html">Experience Note</a></li>
-        </ul>
-        <!-- 메인페이지를 썸네일과 wall, img로 구성했습니다. -->
-        <h2>Who is?</h2>
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <img src="img/character.png" , alt="...">
-                    <div class="caption">
-                        <h3>김우헌</h3>
-                        <p>1998년 10월 19일 출생
-                            <br>한국기술교육대학교 3학년 재학
-                            <br>컴퓨터공학 전공
-                            <br>해군 정보보호병 전역
-                            <br>멋쟁이사자처럼 9기 아기사자
-                        </p>
-                        <!-- <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default"
-                                role="button">Button</a></p> -->
-                    </div>
-                </div>
+        <header>
+            <h1><span class='dynamic anim-text-flow'>　honeyuheony.github.io　</span></h1>
+            <div class="mnb">
+                <button><img src="img/mnb.png" alt="더보기 메뉴"></button>
+                <ul class="mnb_inner">
+                    <li class="exit"><img src="img/mnb.png" alt="더보기 메뉴"></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bucketList.html">Bucket List</a></li>
+                    <li><a href="pet.html">Pet</a></li>
+                    <li><a href="note.html">Experience Note</a></li>
+                </ul>
             </div>
-        </div>
-        <br>
-        <h2>What is "honeyuheony"?</h2>
-        <div class="well well-lg", style="width:750px;">
-            <p>
-                제가 자란 제주도에서는 이름을 부를때 호격조사를 각각 'ㅇㅇ아, ㅇㅇ야' 가 아닌 'ㅇㅇ이, ㅇㅇ'라고 하는데요, <br>
-                제 이름 '우헌'을 처음 보는 사람이 부르기 어려워하는 사람들이 종종 있었어요.<br>
-                어느 날, 제 친구가 다른 사람들에게 저를 소개해줄 때 '허니 할때 우헌이' 라며 소개해줬었는데, <br>
-                모두들 바로 제 이름을 기억했던 기억이 생생해서 이렇게 제 하나의 ID로 사용하게 되었습니다 :)
-            </p>
-        </div>
-        <br>
-        <h2>MBTI : ENFP</h2>
-        <img src="img/mbti.png" , alt="...">
+        </header>
+
+        <section class='profile'>
+            <!-- 메인페이지를 썸네일과 wall, img로 구성했습니다. -->
+            <!-- <h2>Who is?</h2> -->
+            <img src="img/rainbow.jpg" , alt="...">
+            <div class="caption">
+                <h4>uheon Kim</h4>
+                <p>Oct. 19. 1998
+                    <br>Mar. 2017 ~ now attending KOREATECH
+                    <br>Computer Science 3rd year
+                    <br>May. 2019 ~ Jar. 2021 Period of service the Roknavy
+                    <br>as Cybersecurity speciallist
+                    <br>Mar. 2021 ~ now attending likelion 9th
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>What is "honeyuheony"?</h2>
+            <div class="well well-lg" ,>
+                <p>
+                    제가 자란 제주도에서는 이름을 부를때 'ㅇㅇ아, ㅇㅇ야' 가 아닌 'ㅇㅇ이, ㅇㅇ'라고 하는데요, <br>
+                    제 이름 '우헌'을 '우현'으로 착각하는 사람들이 꽤 있었어요.<br>
+                    어느 날, 제 친구가 다른 사람들에게 저를 소개해줄 때 '허니 할때 우헌이' 라며 소개해줬었는데, <br>
+                    모두들 제 이름을 바로 기억했던 기억이 생생해서 이렇게 제 하나의 ID로 사용하게 되었습니다 :)
+                </p>
+            </div>
+            <br>
+        </section>
+        <section>
+            <h2>MBTI : ENFP</h2>
+            <img src="img/mbti.png" , alt="...">
+        </section>
 
 
-        
-        
+        <div class="qa" id="qa">
+            <ul>
+                <li>
+                    <section class="front">
+                        <h4>내가 흥미를 느끼는 것</h4>
+                        <p>
+                            준비중입니다 :)
+                        </p>
+                    </section>
+
+                    <section class="back" style="background: rgb(252, 123, 84);">
+                        <h4>Interest</h4>
+                    </section>
+
+                </li>
+                <li>
+                    <section class="front">
+                        <h4>내가 행복할 때</h4>
+                        <p>
+                            준비중입니다 :)
+                        </p>
+                    </section>
+
+                    <section class="back" style="background: rgb(255, 179, 65);">
+                        <h4>Happiness</h4>
+                    </section>
+
+                </li>
+                <li>
+                    <section class="front">
+                        <h4>나의 열정</h4>
+                        <p>
+                            준비중입니다 :)
+                        </p>
+                    </section>
+
+                    <section class="back" style="background: rgb(255, 221, 109);">
+                        <h4>Passion</h4>
+                    </section>
+
+                </li>
+                <li>
+                    <section class="front">
+                        <h4>나의 재능</h4>
+                        <p>
+                            준비중입니다 :)
+                        </p>
+                    </section>
+
+                    <section class="back" style="background: rgb(168, 255, 110);">
+                        <h4>Talent</h4>
+                    </section>
+
+                </li>
+                <li>
+                    <section class="front">
+                        <h4>나의 강점</h4>
+                        <p>
+                            준비중입니다 :)
+                        </p>
+                    </section>
+
+                    <section class="back" style="background: rgb(111, 197, 255);">
+                        <h4>Strength</h4>
+                    </section>
+
+                </li>
+            </ul>
+        </div>
     </div>
+    <footer>
+        <ul>
+            <li><a href="https://github.com/honeyuheony/" target="_blank"><img src="img/git.png" alt="깃허브"></a></li>
+            <li><a href="https://www.instagram.com/honeyuheony/" target="_blank"><img src="img/instagram.png"
+                        alt="인스타그램"></a></li>
+        </ul>
+        <p>2021 likelion project</p>
+    </footer>
+
 </body>
+
 </html>
